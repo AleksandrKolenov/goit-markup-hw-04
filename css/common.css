@@ -8,8 +8,9 @@
 }
 
 body {
-  background: var(--primery-bg-color)
+  background: var(--primery-bg-color);
   color: var(--primery-tex-color);
+}
 
 font-family: Roboto, sans-serif;
 

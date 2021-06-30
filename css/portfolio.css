@@ -9,6 +9,7 @@
   --accent-button: #f5f4fa;
   --card-set-gap: 30px;
   --border-color: #EEEEEE;
+  
 }
 
 body {
@@ -209,9 +210,11 @@ ul.list {
   justify-content: center;
 }
 
-.btn li {
+.btn.list {
   margin-bottom: 50px;
 }
+
+
 
 .btn .item:not(:last-child) {
   margin-right: 8px;
@@ -335,4 +338,22 @@ ul.list {
   padding: 20px 20px;
   border: 1px solid var(--border-color);
   border-top: 0;
+}
+
+.pointer-primery:hover, .pointer-primery:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.pointer-secondory:hover, .pointer-secondory:focus {
+  
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.pointer-secondory:active {
+  color: var(--accent-color);
+}
+
+.shadow-pic:hover, .shadow-pic:focus {
+  display: block;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
