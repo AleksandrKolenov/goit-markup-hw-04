@@ -9,6 +9,7 @@
   --accent-button: #f5f4fa;
   --card-set-gap: 30px;
   --border-color: #EEEEEE;
+   --primery-social-color: rgba(255, 255, 255, 0.1);
   
 }
 
@@ -356,4 +357,72 @@ ul.list {
 .shadow-pic:hover, .shadow-pic:focus {
   display: block;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.icon-wrapper {
+  height: 120px;
+  background-color: var(--primery-main-color);
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+.contact-icon {
+  margin-right: 10px;
+  fill: var(--primery-tex-color);
+  fill: currentColor;
+}
+
+.container.foot {
+margin-right: 156px;
+}
+
+.container.footer {
+  display: flex;
+  align-items: baseline;
+  
+}
+
+.join {
+ 
+  color: var(--primery-bg-color);
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.link-icon {
+  list-style: none;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+
+
+.link-footer:not(:last-child) {
+  margin-right: 10px;
+  text-align: center;
+  justify-content: center;
+}
+
+.badge {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  fill: var(--primery-bg-color);
+  background: var(--primery-social-color);
+}
+
+.badge:hover,.badge:focus {
+  background-color: var(--accent-color);
+  
 }

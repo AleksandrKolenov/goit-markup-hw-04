@@ -10,7 +10,7 @@
   --primery-main-color: #F5F4FA;
   --primery-logo: #000000;
   --primery-icon-color: #AFB1B8;
-  
+  --primery-social-color: rgba(255, 255, 255, 0.1);
 }
 
 body {
@@ -578,12 +578,17 @@ margin-bottom: 0;
 }
 
 .footer_container {
-  display: flex;
+margin-right: 156px;
+padding: 0;
 }
 
+.container.footer {
+  display: flex;
+  align-items: baseline;
+}
 
 .join {
-  
+ 
   color: var(--primery-bg-color);
 font-weight: 700;
 font-size: 14px;
@@ -595,21 +600,30 @@ text-transform: uppercase;
 .link-icon {
   list-style: none;
   display: flex;
-
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding: 0;
 }
+
+
 
 .link-footer:not(:last-child) {
   margin-right: 10px;
-  text-align: center;
-  justify-content: center;
+  
 }
 
 .badge {
-  
+  display: flex;
   width: 44px;
   height: 44px;
   border-radius: 50%;
- text-align: center;
+  align-items: center;
   justify-content: center;
-  color: var(--primery-bg-color);
+  fill: var(--primery-bg-color);
+  background: var(--primery-social-color);
+}
+
+.badge:hover, .badge:focus {
+  background-color: var(--accent-color);
+
 }
