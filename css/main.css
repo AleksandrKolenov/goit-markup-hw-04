@@ -373,9 +373,14 @@ letter-spacing: 0.03em;
   display: flex;
 }
 
-.icon-partner .item:not(:last-child) {
+.item-partner:not(:last-child) {
    margin-right: 30px;
+    width: 170px;
+height: 92px;
+
 }
+
+
 .pictures li {
   width: 370px;
 }
@@ -515,55 +520,69 @@ ul .social-links {
   color: var(--primery-bg-color);
 }
 
+
+
 .partners {
  padding-top: 94px;
  padding-bottom: 94px;
-color: var(--title-tex-color);
-font-weight: 700;
-font-size: 36px;
-line-height: 1.1;
-text-align: center;
-letter-spacing: 0.03em;
 }
 
 .icon-partner {
   list-style: none;
  display:flex;
- align-items: center;
- justify-content: center;
-color: var(--primery-icon-color);
+ padding-left: 0;
+
 }
+
+
 
 .our-partner {
   fill: currentColor;
+  width: 100%;
+  height: 100%;
+  display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 4px;
+  border: 1px solid #AFB1B8;
 }
  
 .frame-color {
-  border-radius: 4px;
-  border: 1px solid #AFB1B8;
-  width: 170px;
-height: 92px;
+  width: 106px;
+  height: 60px;
 }
 
 .clients {
-margin-top: 50px;
-margin-bottom: 0;
+
+margin-bottom: 50px;
+color: var(--title-tex-color);
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
 }
 
-.frame-color:hover, .frame-color:focus {
+.our-partner:hover, .our-partner:focus {
  
   color: var(--accent-color);
   border-color: var(--accent-color);
 }
 
-.page{
+.page.one {
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
   height: 600px;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4););
+ 
+   background-repeat: no-repeat;
+  background-position-x: center;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.3), rgba(0, 0, 0, 0.3));
   background-image: url(../images/Главная.jpg);
 }
+
 
 
 
@@ -582,7 +601,7 @@ margin-right: 156px;
 padding: 0;
 }
 
-.container.footer {
+.footer .container {
   display: flex;
   align-items: baseline;
 }
