@@ -377,7 +377,11 @@ letter-spacing: 0.03em;
    margin-right: 30px;
     width: 170px;
 height: 92px;
+}
 
+.item-partner:last-child {
+  width: 170px;
+  height: 92px;
 }
 
 
@@ -579,8 +583,8 @@ letter-spacing: 0.03em;
  
    background-repeat: no-repeat;
   background-position-x: center;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.3), rgba(0, 0, 0, 0.3));
-  background-image: url(../images/Главная.jpg);
+  background-image: linear-gradient( rgba(47, 48, 58, 0.3), rgba(0, 0, 0, 0.3)),  url(../images/Главная.jpg);
+ ;
 }
 
 
