@@ -535,13 +535,14 @@ ul .social-links {
   list-style: none;
  display:flex;
  padding-left: 0;
-
+margin-top: 0;
+margin-bottom: 0;
 }
 
 
 
 .our-partner {
-  fill: currentColor;
+  fill: #AFB1B8;
   width: 100%;
   height: 100%;
   display: flex;
@@ -557,7 +558,7 @@ border-radius: 4px;
 }
 
 .clients {
-
+margin-top: 0;
 margin-bottom: 50px;
 color: var(--title-tex-color);
 font-family: Roboto;
@@ -571,7 +572,7 @@ letter-spacing: 0.03em;
 
 .our-partner:hover, .our-partner:focus {
  
-  color: var(--accent-color);
+  fill: var(--accent-color);
   border-color: var(--accent-color);
 }
 
@@ -601,8 +602,9 @@ letter-spacing: 0.03em;
 }
 
 .footer_container {
-margin-right: 156px;
+margin-right: 70px;
 padding: 0;
+
 }
 
 .footer .container {
